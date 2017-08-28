@@ -4,7 +4,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 /**
  * Created with Intellij IDEA.
- * Description:
+ * Description:配置DispatcherServlet
  * User: baby
  * Date: 2017/8/28
  * Time: 9:06
