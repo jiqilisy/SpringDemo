@@ -10,6 +10,11 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  * Time: 9:06
  */
 public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
+    }
+
     protected Class<?>[] getRootConfigClasses() {
         return new Class<?>[]{RootConfig.class};
     }
@@ -18,7 +23,4 @@ public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherS
         return new Class<?>[]{WebConfig.class};
     }
 
-    protected String[] getServletMappings() {
-        return new String[]{"/"};
-    }
 }
