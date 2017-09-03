@@ -1,6 +1,6 @@
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;
-import spittr.web.HomeController;
+import org.baby.spittr.web.HomeController;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

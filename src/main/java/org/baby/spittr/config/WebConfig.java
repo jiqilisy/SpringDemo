@@ -1,4 +1,4 @@
-package spittr.config;
+package org.baby.spittr.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -20,7 +20,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 //启用 Spring MVC
 @EnableWebMvc
 //启用组件扫描
-@ComponentScan("spittr.web")
+@ComponentScan("org.baby.spittr.web")
 public class WebConfig extends WebMvcConfigurerAdapter{
 
     /**

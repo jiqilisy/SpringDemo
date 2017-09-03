@@ -9,3 +9,4 @@ out
 gen
 src/main/resources/
 target/
+!/src/main/test/
