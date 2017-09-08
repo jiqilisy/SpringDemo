@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
  * Created with Intellij IDEA.
- * Description:
+ * Description:配置器
  * User: baby
  * Date: 2017/8/28
  * Time: 9:10
